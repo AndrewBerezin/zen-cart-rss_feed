@@ -4,7 +4,7 @@ RSS Feed
 
 Version Date
 ==============
-v 2.1.5 31.03.2008 15:54
+v 2.4.2
 
 Author
 ======
@@ -60,10 +60,10 @@ feed=upcoming_random - Upcoming random
 feed=upcoming_random&cPath=<cPath> - Upcoming random in category <cPath>
 feed=news - News from News & Articles contribution (http://www.zen-cart.com/forum/showthread.php?t=35342).
 
-Addition parameters: 
+Addition parameters:
 - Parameter "limit" support for all feeds except "random".
 - Parameter "ref". If you specify a parameter 'ref=' for the rss feed link, it will be automatically added to all internal links
-   generated in the feed (links to products, categories, reviews, articles, buy now, etc.). 
+   generated in the feed (links to products, categories, reviews, articles, buy now, etc.).
    You can use it for affilation program.
 - Google Analitycs parameters (link tags). If you specify a Google Analytics link tags for the rss feed link,
    they will be automatically added to all internal links generated in the feed
@@ -73,8 +73,8 @@ Addition parameters:
 - Parameter "imgsize". You can point to how size images generate links in <g:image_link> tag (small, medium, large).
 
 
-Support additional Google Base tags (Base and Custom Namespaces) 
-(http://base.google.com/support/bin/answer.py?answer=58085). 
+Support additional Google Base tags (Base and Custom Namespaces)
+(http://base.google.com/support/bin/answer.py?answer=58085).
 
 Using cache.
 
@@ -177,4 +177,4 @@ v 2.1.4 14.02.2008 15:26
 v 2.1.5 31.03.2008 15:54
 1. In configuration replace "Feed Cache Time" by "Use feed Cache".
 2. For Cache Time using "Time to live" (ttl) parameter.
-3. 
+3.
